@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+body{
+    background-color: antiquewhite;
+}
+
+h1{
+    text-align: center;
+    color: rgb(131, 122, 110);
+    background-color: rgb(247, 214, 172);
+}
+
+.titulos{
+    text-indent: 30px;
+    color: rgb(153, 130, 101);
+}
+
+.avançado1{
+    font-size: 28px;
+}
+
+

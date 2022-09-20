@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Dinâmicas</title>
+</head>
+<body>
+    <h1>Imagem Dinâmicas</h1>
+    <p>Podemos modificar as imagens conforme ela é aberta em dispositivos diferentes, assim qualquer usuario seja no celular, tablet ou computador tera o site adaptavel para esse aparelho.</p>
+
+    <picture>
+        <source media="(max-width: 550px)" srcset="imagens/Pequeno.png" type="image/png">
+        <source media="(max-width: 950px)" srcset="imagens/Medio.png" type="image/png">
+        <img src="imagens/Grande.png" alt="ImagemGrande">
+    </picture>
+</body>
+</html>

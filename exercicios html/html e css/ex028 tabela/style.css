@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+table{
+    width: 1080px; 
+} 
+
+table thead{
+    background-color: #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+tbody tr:hover {
+    background-color: rgb(129, 129, 129);
+
+}
+
+
+<!-- 1 é o tamanho da tabela
+<!-- 2 Cor de fundo da cabeça da tabela
+<!-- 3 Tamanho do espaço das linhas e colunas
+<!-- 4 Comando de ação para quando passar o mouse na linha, ela ficará colorida
+<!-- 
