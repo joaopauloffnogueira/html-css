@@ -1,6 +1,4 @@
 
-@charset "UTF-8";
-
 *{
     padding: 0;
     margin: 0;
@@ -8,7 +6,7 @@
 
 
 html, body{
-    background-color: rgb(59, 59, 59);
+    background-color: #3b3b3b;
     min-height: 100vh;
 }
 
@@ -21,4 +19,52 @@ header{
 header h1{
     padding-top: 50px;
     font-variant: small-caps;
+}
+
+header p {
+    padding-bottom: 50px;
+}
+
+header a, footer a {
+   color: #fff;
+   text-decoration: none;
+   font-weight: bolder; 
+}
+
+header a:hover, footer a:hover {
+    text-decoration: underline;
+}
+
+section{
+    padding: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+section p{
+    padding-bottom: 2em;
+}
+
+section.dark{
+    background-color: #fff;
+    color: #000;
+}
+
+section.image{
+    background-color: #3b3b3b;
+    color: #fff;
+}
+
+section.image p{
+    background-color: #181818;
+    display: inline-block;
+}
+
+
+footer{
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
 }
